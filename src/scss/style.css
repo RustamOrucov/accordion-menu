@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open sans", sans-serif;
+}
+
+body {
+  background-color: #F8F8FA;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.faq .faq-wrapper {
+  padding: 0 40px;
+  background-color: red;
+  width: 500px;
+  margin: 40px auto;
+  background-color: #fff;
+  border-top: 3px solid #2f80ed;
+  border-radius: 20px;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-header {
+  margin: 20px 0;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-header button {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #021937;
+  cursor: pointer;
+  transition: color 0.4s;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-header button:hover {
+  color: blue;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-header button:hover .spans span {
+  background-color: blue;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-header button .spans {
+  position: relative;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-header button .spans span {
+  display: block;
+  position: absolute;
+  background-color: black;
+  font-size: 80px;
+  transition: 0.1s all;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-header button .spans span:nth-child(1) {
+  top: 10px;
+  right: 9px;
+  width: 14px;
+  height: 2px;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-header button .spans span:nth-child(2) {
+  right: 15px;
+  top: 4px;
+  width: 2px;
+  height: 14px;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-body {
+  overflow: hidden;
+  border-bottom: 1px solid #eaedff;
+  max-height: 0;
+  padding-bottom: 0;
+  transition: 0.4s all;
+}
+.faq .faq-wrapper .accordion .accordion-item .accordion-body p {
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.faq .faq-wrapper .accordion .accordion-item:last-child .accordion-body {
+  border-color: transparent;
+}/*# sourceMappingURL=style.css.map */
